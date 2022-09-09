@@ -16,6 +16,18 @@ export GCP_PROJECT_NAME=[project name]
 $env:GCP_PROJECT_NAME=[project name]
 ```
 
+# setup python library
+After Python 3.9
+
+## venv
+### Mac
+```bash
+python3 -m venv venv --upgrade-deps
+. ./venv/bin/activate
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+```
+
 # run
 
 ```bash
